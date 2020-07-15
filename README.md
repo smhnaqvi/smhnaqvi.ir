@@ -1,2 +1,2 @@
 # smhnaqvi.ir
-smhnaqvi.ir is my official web site 
+is my official web site 
