@@ -1,0 +1,23 @@
+div.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+div.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+div.profile span.user-name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 10px;
+    white-space: nowrap;
+}

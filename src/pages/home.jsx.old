@@ -1,0 +1,16 @@
+import React from "react"
+import Container from "../components/container";
+import './profile.css'
+import SocialNetwork from "../components/socialNetwork";
+
+export default function Home() {
+    return (<Container>
+        <div className={"profile"}>
+            <img className={"avatar"}
+                 src="https://lh3.googleusercontent.com/ogw/ADGmqu8xThuMKsHYvXzKK_INudlO68eMGhvu8rJQwbZe=s83-c-mo"
+                 alt="avatar"/>
+            <span className={"user-name"}>syed mohhamad hussain naqvi</span>
+            <SocialNetwork/>
+        </div>
+    </Container>)
+}

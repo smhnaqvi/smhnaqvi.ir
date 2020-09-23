@@ -1,0 +1,13 @@
+@import url(fonts/iransans/iransans.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    transition: all .2s;
+}
+
+body {
+    font-family: "IRANSans", sans-serif;
+    background-color: #d5ebff;
+}
